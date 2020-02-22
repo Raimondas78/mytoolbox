@@ -7,7 +7,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XzmF645nVAJm2C6Cp4mVFOuhSq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,10 +60,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582380126443">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582399444506">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582380126443" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582399444506" />
     <state width="1323" height="163" key="GridCell.Tab.0.bottom" timestamp="1582059519331">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -76,9 +80,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="163" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582059519331" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582379945528">
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582399428966">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582379945528" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582399428966" />
   </component>
 </project>

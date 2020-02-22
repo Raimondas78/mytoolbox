@@ -1,7 +1,7 @@
 package FundamentalsExersisesAdvanced;
 
-import FundamentalsExersisesAdvanced.TicTacToe;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class GameRunner {
@@ -38,6 +38,14 @@ public class GameRunner {
         newGame.printBoard();
         boolean gameFinished = false;
         int count = 0;
+
+        int gameCount = 1;
+        Random randomNumber = new Random();
+        int randIntOne = randomNumber.nextInt(3);
+        TicTacComputer computer = new TicTacComputer();
+        System.out.println(computer.firstMove(newGame.arrayBoard,gameCount,userOneToken,userTwoToken));
+
+
 
         while(!gameFinished) {
             System.out.println("Please make your move " + userOneName);
@@ -78,5 +86,12 @@ public class GameRunner {
             count++;
 
         }
+
+
+
+
+
     }
+
+
 }
