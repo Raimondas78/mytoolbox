@@ -1,0 +1,63 @@
+Commands
+
+git config //needed to specify user’s identity:
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git init //initialize new local repository
+git clone //copy remote repository to your project directory
+git status //check the status of the files you worked on
+git add //adds changes to index(stage). -p / . / <filename>
+git diff //shows the local changes in files 
+git diff master..newbranch
+git show <commit id> //shows changes in a commit
+git log //shows the commits in the branch in chronological order.
+git commit //commits staged changes for the remote repository.
+git push //pushes committed change-sets to remote repository.
+git branch //lists branch names, -a for remote branches.
+git checkout //switches to specific branch.
+git stash //stashes your changes which you don’t want to commit immediately
+git fetch //fetches changes from the remote repository to your local repository (head)
+git merge //merges two branches. Perform on branch where to want merge everything IN
+git merge - - squash <branch> // summarizes  all the different commits in the branch and puts them together in one commit. Need to commit after.
+git pull //pulls and merges the changes from the remote repository to your local workspace
+git reset //creates a new commit that undoes the changes from a previous commit.
+git rm  - -cached <filename> //removes file from STAGED area
+git log origin/master..HEAD // view not pushed commits
+git show HEAD~1
+git reset --soft HEAD~1 //resets your last commit to uncommitted STAGED changes
+git reset HEAD <file> //removes the file from STAGED section.
+git branch -d branch_name
+
+Create GitHub repository 
+
+Create a local project. (Hello world app)
+Initialize local git repo git init.
+Specify your credentials git config - - global user.name ‘name’ and - - global user.email ‘email’.
+Add project files to repo git add.
+Commit changes and push them to the branch.
+By default you are working on local master branch, so you can create separate branch git checkout <branch name> and do your changes there.
+Then you can git merge your branch with the changes from another branch. (changes are merged FROM the branch name you specify to your current branch).
+Create/add/use existing remote repository from GitHub. 
+Go to your local workspace/project and run git remote add origin <url to your repo>
+Execute git push -u origin master pushes your project to your remote repository.
+To verify - git clone in the other local workspace location and check if the project was downloaded.
+
+
+
+All collaborators to your remote repository
+
+Go to GitHub > your repository > settings > collaborators > enter a name and add.
+
+File Status
+
+File can be tracked (known by git) or untracked. With corresponding statuses of ‘up to date’ and ‘modified’ for tracked files and ‘not modified’ and ‘modified’ for the untracked files. Lastly, tracked files can be indexed or not to be present in the upcoming commit. Indexes are added to a file by using git add command.
+
+.gitignore file
+
+This file should describe files, filetypes, directories, etc. which have to be excluded from indexing, committing and pushing it to the remote repository. 
+.file_name
+directory/
+*.filetype
+!donotignore.log
+
