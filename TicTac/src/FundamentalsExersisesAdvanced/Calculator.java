@@ -21,4 +21,12 @@ public class Calculator {
         return x - y;
     }
 
+    public double getDiv(double x, double y){
+        if(y==0){
+            System.out.println("Invalid value. Cannot divide by 0 ");
+            return -1;
+        }
+        return x/y;
+    }
+
 }

@@ -2,20 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7072f531-d89d-4003-8303-ee59baddf151" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/tdd/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tdd/TemperatureConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testingFund/MockClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testingFund/TddCalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testingFund/TestTempConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/GameRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testingFund/testCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testingFund/testCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testingFund/testCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testingFund/TestCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="188" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,8 +51,9 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="ToolWindowCoverage.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testavimas/libraries" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -55,41 +64,8 @@
       <recent name="testingFund" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.testCalculator">
-    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FundamentalsExersisesAdvanced.GameRunner" />
-      <module name="TicTac" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PetrolCashPoint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FundamentalsExersisesAdvanced.PetrolCashPoint" />
-      <module name="TicTac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FundamentalsExersisesAdvanced.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Trainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FundamentalsExersisesAdvanced.Trainer" />
-      <module name="TicTac" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="FundamentalsExersisesAdvanced.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="testCalculator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter">
+    <configuration name="TddCalculatorTest.testAddmethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TicTac" />
       <extension name="coverage">
         <pattern>
@@ -98,18 +74,90 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testingFund" />
-      <option name="MAIN_CLASS_NAME" value="testingFund.testCalculator" />
+      <option name="MAIN_CLASS_NAME" value="testingFund.TddCalculatorTest" />
+      <option name="METHOD_NAME" value="testAddmethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTempConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingFund.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingFund" />
+      <option name="MAIN_CLASS_NAME" value="testingFund.TestTempConverter" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestTempConverter.testCelsiustoFahrenheitConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingFund.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingFund" />
+      <option name="MAIN_CLASS_NAME" value="testingFund.TestTempConverter" />
+      <option name="METHOD_NAME" value="testCelsiustoFahrenheitConverter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTempConverter.testFahrenheitToCelsiusConv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingFund.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingFund" />
+      <option name="MAIN_CLASS_NAME" value="testingFund.TestTempConverter" />
+      <option name="METHOD_NAME" value="testFahrenheitToCelsiusConv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTempConverter.testFahrenheitToCelsiusConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TicTac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testingFund.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testingFund" />
+      <option name="MAIN_CLASS_NAME" value="testingFund.TestTempConverter" />
+      <option name="METHOD_NAME" value="testFahrenheitToCelsiusConverter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.TddCalculatorTest.testAddmethod" />
+      <item itemvalue="JUnit.TestTempConverter" />
+      <item itemvalue="JUnit.TestTempConverter.testCelsiustoFahrenheitConverter" />
+      <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter" />
+      <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConv" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.testCalculator" />
-        <item itemvalue="Application.GameRunner" />
-        <item itemvalue="Application.Trainer" />
-        <item itemvalue="Application.PetrolCashPoint" />
+        <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter" />
+        <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConv" />
+        <item itemvalue="JUnit.TestTempConverter.testCelsiustoFahrenheitConverter" />
+        <item itemvalue="JUnit.TestTempConverter" />
+        <item itemvalue="JUnit.TddCalculatorTest.testAddmethod" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +178,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1582445856168</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="naujas darbas">
+      <created>1582446023924</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1582446023924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -145,42 +199,62 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="25" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1582225248867" />
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582225202561">
+    <state x="286" y="44" key="#TestCalculator" timestamp="1582449594209">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582225202561" />
+    <state x="286" y="44" key="#TestCalculator/0.0.1366.728@0.0.1366.728" timestamp="1582449594209" />
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582449743398">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1582449743398" />
     <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser" timestamp="1582445016820">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582445016820" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1582445973157">
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1582449738679">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582445973157" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582444188088">
+    <state x="413" y="145" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582449738679" />
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582449590253">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582444188088" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582445950362">
+    <state x="412" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1582449590253" />
+    <state x="294" y="89" key="#testCalculator" timestamp="1582448319316">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582445950362" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582445950361">
+    <state x="294" y="89" key="#testCalculator/0.0.1366.728@0.0.1366.728" timestamp="1582448319316" />
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1582446021480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582445950361" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582445950361">
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582446021480" />
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582465450235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582445950361" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582445950362">
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582465450235" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582464535633">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582445950362" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1582444136257">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582464535633" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582464535632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582444136257" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582464535632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582464535632">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1582465458661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582465458661" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1582446031338">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582446031338" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582225154668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -197,5 +271,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582444208276" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TicTacToe$testCalculator.ic" NAME="TestCalculator Coverage Results" MODIFIED="1582449536177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testingFund.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/TicTacToe$TestCalculator.ic" NAME="TestCalculator Coverage Results" MODIFIED="1582449748025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>testingFund.*</FILTER>
+      <FILTER>FundamentalsExersisesAdvanced.Calculator</FILTER>
+      <FILTER>FundamentalsExersisesAdvanced.*</FILTER>
+    </SUITE>
   </component>
 </project>
