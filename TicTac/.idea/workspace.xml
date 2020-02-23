@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7072f531-d89d-4003-8303-ee59baddf151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacComputer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/GameRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +90,11 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/mytoolbox" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1582225248867">
       <screen x="0" y="0" width="1366" height="728" />
@@ -108,10 +108,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="83" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1582400234043" />
-    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582379232313">
+    <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582444188088">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582379232313" />
+    <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582444188088" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582410207639">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -128,10 +128,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582410207638" />
-    <state x="186" y="9" key="SettingsEditor" timestamp="1582399517373">
+    <state x="186" y="9" key="SettingsEditor" timestamp="1582444136257">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582399517373" />
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582444136257" />
     <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582225154668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -140,5 +140,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582400879032" />
+    <state x="65" y="0" key="new project wizard" timestamp="1582444208276">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1582444208276" />
   </component>
 </project>
