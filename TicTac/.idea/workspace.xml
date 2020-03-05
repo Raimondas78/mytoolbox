@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7072f531-d89d-4003-8303-ee59baddf151" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tdd/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tdd/TemperatureConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testingFund/MockClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testingFund/TddCalculatorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testingFund/TestTempConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/libraries.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/NewClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/Calculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testingFund/testCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testingFund/TestCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/GameRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/GameRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/TicTacComputer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/TicTacComputer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/TicTacToe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TicTac/FundamentalsExersisesAdvanced/TicTacToe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/GameRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/GameRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacComputer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacComputer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +53,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowCoverage.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Testavimas/libraries" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -64,34 +67,29 @@
       <recent name="testingFund" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter">
-    <configuration name="TddCalculatorTest.testAddmethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.GameRunner">
+    <configuration name="GameRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsExersisesAdvanced.GameRunner" />
       <module name="TicTac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testingFund.*" />
+          <option name="PATTERN" value="FundamentalsExersisesAdvanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testingFund" />
-      <option name="MAIN_CLASS_NAME" value="testingFund.TddCalculatorTest" />
-      <option name="METHOD_NAME" value="testAddmethod" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestTempConverter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NewClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FundamentalsExersisesAdvanced.NewClass" />
       <module name="TicTac" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="testingFund.*" />
+          <option name="PATTERN" value="FundamentalsExersisesAdvanced.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="testingFund" />
-      <option name="MAIN_CLASS_NAME" value="testingFund.TestTempConverter" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,19 +143,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.TddCalculatorTest.testAddmethod" />
-      <item itemvalue="JUnit.TestTempConverter" />
+      <item itemvalue="Application.GameRunner" />
+      <item itemvalue="Application.NewClass" />
       <item itemvalue="JUnit.TestTempConverter.testCelsiustoFahrenheitConverter" />
-      <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter" />
       <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConv" />
+      <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameRunner" />
+        <item itemvalue="Application.NewClass" />
         <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConverter" />
         <item itemvalue="JUnit.TestTempConverter.testFahrenheitToCelsiusConv" />
         <item itemvalue="JUnit.TestTempConverter.testCelsiustoFahrenheitConverter" />
-        <item itemvalue="JUnit.TestTempConverter" />
-        <item itemvalue="JUnit.TddCalculatorTest.testAddmethod" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +182,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1582446023924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="naujas darbas 2020 02 23">
+      <created>1582465546527</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1582465546527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,7 +196,8 @@
       <path value="$PROJECT_DIR$/src/FundamentalsExersisesAdvanced/mytoolbox" />
     </ignored-roots>
     <MESSAGE value="naujas darbas" />
-    <option name="LAST_COMMIT_MESSAGE" value="naujas darbas" />
+    <MESSAGE value="naujas darbas 2020 02 23" />
+    <option name="LAST_COMMIT_MESSAGE" value="naujas darbas 2020 02 23" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="25" key="#Project_Structure" timestamp="1582225248867">
@@ -223,42 +228,58 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="294" y="89" key="#testCalculator/0.0.1366.728@0.0.1366.728" timestamp="1582448319316" />
-    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1582446021480">
+    <state x="350" y="0" key="CommitChangelistDialog2" timestamp="1582465540822">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582446021480" />
+    <state x="350" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582465540822" />
     <state x="463" y="122" key="FileChooserDialogImpl" timestamp="1582465450235">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="122" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1582465450235" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1582464535633">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1583157397724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1582464535633" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1582464535632">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583157397724" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1583157397724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1582464535632">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1583157397724" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1583157397723">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1582464535632">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1583157397723" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1583157397724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1582464535632" />
-    <state x="186" y="0" key="SettingsEditor" timestamp="1582465458661">
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1583157397724" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1583091518705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582465458661" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1582446031338">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1583091518705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1583091518705">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582446031338" />
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1582225154668">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1583091518705" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1583091518704">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582225154668" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1583091518704" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1583091518705">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1583091518705" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1583083369960">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1583083369960" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1582465553725">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1582465553725" />
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1583137748149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1583137748149" />
     <state x="387" y="265" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1582445178060">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -267,6 +288,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1582445823100" />
+    <state x="262" y="103" width="842" height="554" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583070705158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="262" y="103" width="842" height="554" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.728@0.0.1366.728" timestamp="1583070705158" />
     <state x="65" y="0" key="new project wizard" timestamp="1582444208276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

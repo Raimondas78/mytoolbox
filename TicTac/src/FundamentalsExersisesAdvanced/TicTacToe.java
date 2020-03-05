@@ -2,104 +2,82 @@ package FundamentalsExersisesAdvanced;
 
 public class TicTacToe {
 
-    String[] arrayBoard = new String[9];
-    int[] arrayInt = new int[9];
+    String[][] arrayBoard = new String[3][3];
+    //int[] arrayInt = new int[9];
     public TicTacToe() {
-        for (int i=0; i<9;i++){
-            arrayInt[i]=i+1;
-        }
-        for(int i=0; i<9;i++){
-            arrayBoard[i] = Integer.toString(arrayInt[i]);
+        for (int i=0; i<3;i++){
+            for(int j=0; j<3;j++){
+                arrayBoard[i][j] = " ";
+            }
         }
     }
 
-    public String[] getArrayBoard() {
+    public String[][] getArrayBoard() {
+
         return arrayBoard;
     }
 
-    public void setArrayBoard(String[] arrayBoard) {
+    public void setArrayBoard(String[][] arrayBoard) {
+
         this.arrayBoard = arrayBoard;
     }
 
     public void printBoard() {
-        // for(int i=0; i<3; i++){
-        // for(int j=0; j<3; j++){
-        //  System.out.print (arrayBoard[i] + "|");
-        //  }
-    //}
+        for(int i=0;i<arrayBoard.length;i++){
+            for(int j=0;j<arrayBoard.length;j++){
+                System.out.print("|" + arrayBoard[i][j]);
+            }
+            System.out.println("|");
+        }
 
-        for(int i =0; i<3;i++){
-            if(i==0){
-                System.out.print("|" + arrayBoard[i] + "|");
-            } else {
-                System.out.print(arrayBoard[i] + "|");
-            }
-        }
-        System.out.println();
-        for(int i=3; i<6;i++){
-            if(i==3){
-                System.out.print("|" + arrayBoard[i] +"|");
-            } else {
-                System.out.print(arrayBoard[i] + "|");
-            }
-        }
-        System.out.println();
-        for(int i=6; i<9;i++){
-            if(i==6){
-                System.out.print("|" + arrayBoard[i] +"|");
-            } else {
-                System.out.print(arrayBoard[i] + "|");
-            }
-        }
-        System.out.println();
     }
 
     public boolean isUserOneWinner(String userToken, String userName){
 
-                if((arrayBoard[0].equals(arrayBoard[1]) && arrayBoard[1].equals(arrayBoard[2]))&&
-                        arrayBoard[0].equals(userToken)){
+                if((arrayBoard[0][0].equals(arrayBoard[0][1]) && arrayBoard[0][1].equals(arrayBoard[0][2]))&&
+                        arrayBoard[0][0].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[0].equals(arrayBoard[3]) && arrayBoard[3].equals(arrayBoard[6]))
-                &&  arrayBoard[0].equals(userToken)){
+                if((arrayBoard[0][0].equals(arrayBoard[1][0]) && arrayBoard[1][0].equals(arrayBoard[2][0]))
+                &&  arrayBoard[0][0].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[0].equals(arrayBoard[4]) && arrayBoard[4].equals(arrayBoard[8]))
-                &&  arrayBoard[0].equals(userToken)){
+                if((arrayBoard[0][0].equals(arrayBoard[1][1]) && arrayBoard[1][1].equals(arrayBoard[2][2]))
+                &&  arrayBoard[0][0].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[1].equals(arrayBoard[4]) && arrayBoard[4].equals(arrayBoard[7]))
-                && arrayBoard[1].equals(userToken)){
+                if((arrayBoard[0][1].equals(arrayBoard[1][1]) && arrayBoard[1][1].equals(arrayBoard[2][1]))
+                && arrayBoard[0][1].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[2].equals(arrayBoard[5]) && arrayBoard[5].equals(arrayBoard[8]))
-                && arrayBoard[2].equals(userToken)){
+                if((arrayBoard[0][2].equals(arrayBoard[1][2]) && arrayBoard[1][2].equals(arrayBoard[2][2]))
+                && arrayBoard[0][2].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[2].equals(arrayBoard[4]) && arrayBoard[4].equals(arrayBoard[6]))
-                && arrayBoard[2].equals(userToken)){
+                if((arrayBoard[0][2].equals(arrayBoard[1][1]) && arrayBoard[1][1].equals(arrayBoard[2][0]))
+                && arrayBoard[0][2].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[3].equals(arrayBoard[4]) && arrayBoard[4].equals(arrayBoard[5]))
-                && arrayBoard[3].equals(userToken)){
+                    if((arrayBoard[1][0].equals(arrayBoard[1][1]) && arrayBoard[1][1].equals(arrayBoard[1][2]))
+                && arrayBoard[1][0].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
                 } else
-                if((arrayBoard[6].equals(arrayBoard[7]) && arrayBoard[7].equals(arrayBoard[8]))
-                && arrayBoard[6].equals(userToken)){
+                if((arrayBoard[2][0].equals(arrayBoard[2][1]) && arrayBoard[2][1].equals(arrayBoard[2][2]))
+                && arrayBoard[2][0].equals(userToken)){
                     System.out.println(userName + " has won!");
                     return true;
 
@@ -107,6 +85,42 @@ public class TicTacToe {
            return false;
 
         }
+        public int getRow(int move){
+
+        switch(move){
+            case 1: case 2: case 3:
+                return 0;
+            case 4: case 5: case 6:
+                return 1;
+            case 7: case 8: case 9:
+                return 2;
+
+            default:
+                break;
+        }
+
+        return -1;
+       }
+    public int getCol(int move){
+
+        switch(move){
+            case 1: case 4: case 7:
+                return 0;
+            case 2: case 5: case 8:
+                return 1;
+            case 3: case 6: case 9:
+                return 2;
+
+            default:
+                break;
+        }
+
+        return -1;
+    }
+
+
+
+
  }
 
 
